@@ -3,7 +3,6 @@ import { useCreateProject } from "../hooks/apis/mutations/useCreateProject";
 import { useNavigate } from "react-router-dom";
 
 export const CreateProject = () => {
-
   const { createProjectMutation } = useCreateProject();
 
   const navigate = useNavigate();
